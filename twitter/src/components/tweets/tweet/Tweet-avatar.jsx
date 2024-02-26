@@ -1,7 +1,8 @@
-export default function TweetAvatar(){
+export default function TweetAvatar({avatar}){
+    // console.log(value1)
  return (
     <div className="tweet-avatar">
-        <img src="/src/assets/Tweet-Profile-Photo.png" alt="photo de profil twitter" />
+        <img src={avatar} alt="photo de profil twitter" />
     </div>
  )
 }

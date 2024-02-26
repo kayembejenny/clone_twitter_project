@@ -1,7 +1,8 @@
-export default function TweetImage(){
+export default function TweetImage({lesimages}){
     return(
         <div className="tweet-image">
-            <img src="/src/assets/Img.jpg" alt="image du twitter" />
+            <img src={lesimages} 
+            alt="image du twitter" />
         </div>
     )
 

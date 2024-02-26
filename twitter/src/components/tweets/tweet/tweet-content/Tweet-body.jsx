@@ -1,12 +1,13 @@
-import TweetTitleAuthors from "./tweet-title/Tweet-title-author"
+
 import TweetText from "./tweet-body/Tweet-text"
 import TweetImage from "./tweet-body/Tweet-image"
-export default function TweetBody(){
+import TweetTitle from "./tweet-body/Tweet-title"
+export default function TweetBody({boxtweet,boxtext}){
     return(
         <div className="tweet-body">
-            <TweetTitleAuthors/>
-            <TweetText/>
-            <TweetImage/>
+            <TweetTitle titre={boxtweet}/>
+            <TweetText lestext={boxtext?.text}/>
+           { boxtext.image && <TweetImage lesimages={boxtext?.image}/>}
         </div>
     )
 

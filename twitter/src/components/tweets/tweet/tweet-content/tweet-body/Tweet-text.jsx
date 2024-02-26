@@ -1,8 +1,7 @@
-export default function TweetText(){
+export default function TweetText({lestext}){
     return(
         <div className="tweet-text">
-            Gardening bloomed during the pandemic. Six Black writers share how it
-            has helped the re-estabish, and reimagine, a connection to cultive and land
+           {lestext}
         </div>
     )
 }
