@@ -2,7 +2,7 @@ import Tweet from "./tweets/Tweet";
 import photo1 from "../assets/Tweet-Profile-Photo2.png"
 import photo2 from "../assets/Tweet-Profile-Photo.png"
 import photo3 from "../assets/Tweet-Profile-Photo3.png"
-import image from "../assets/Img.jpg"
+import imagetweet from "../assets/image 3.png"
 export default function Tweets(){
     const twit = [
         {
@@ -33,7 +33,7 @@ export default function Tweets(){
             },
             content :{
                 text :"Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land",
-                image : image,
+                image : imagetweet,
             },
             action :{
                 commentaire : "19",
@@ -108,7 +108,7 @@ export default function Tweets(){
         },
         content :{
             text :"hello literally everyone",
-            image : image,
+            image : imagetweet,
         },
     action :{
         commentaire : "118.7K",
