@@ -6,7 +6,6 @@ import TimeLine from './components/timeline.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   
     <TimeLine/>
   </React.StrictMode>,
 )
