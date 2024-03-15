@@ -7,7 +7,7 @@ export default function Menu({data}){
                 gap:'20px'
             }
         }>
-            <span>{data.logo1}</span>
+            <span><img src={data.logo1} alt="" style={{width:"30px"}} /></span>
             <h4>{data.text}</h4>
         </div>
     )

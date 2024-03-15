@@ -4,10 +4,11 @@ import TweetEditor from "./Tweet-editor";
 
 import Tweets from "./Tweets";
 import Siderbar from "./Sidebar";
+import Trend from "./Trend";
 export default function TimeLine(){
     return(
         <>
-            <div>
+            <div className="sidebar"> 
                 <Siderbar/>
             </div>
             <div className="timeline ">
@@ -16,7 +17,9 @@ export default function TimeLine(){
             <Tweets/>
             {/* <Tweets/> */}
             </div>
-            <div></div>
+            <div className="trend"> 
+                <Trend/>
+            </div>
         </>
 
     )
